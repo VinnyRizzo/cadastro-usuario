@@ -1,4 +1,4 @@
-package com.example.cadastro_usuario;
+package br.com.javanauta;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
