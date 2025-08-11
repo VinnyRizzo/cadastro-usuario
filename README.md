@@ -1,7 +1,7 @@
-Descrição Completa do Projeto: API REST para Gerenciamento de Usuários com Spring Boot
+## API REST para Gerenciamento de Usuários com Spring Boot
 Este projeto é uma aplicação backend desenvolvida em Java utilizando o framework Spring Boot, que implementa uma API REST para operações de cadastro, consulta, atualização e exclusão de usuários. O sistema adota arquitetura em camadas e usa JPA/Hibernate para persistência em banco de dados relacional.
 
-Tecnologias e Ferramentas Utilizadas
+## Tecnologias e Ferramentas Utilizadas
 Java 17+
 
 Spring Boot
