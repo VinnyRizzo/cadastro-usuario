@@ -24,5 +24,18 @@ public class UsuarioService {
 	public void deleteUsuarioPorEmail(String email) {
 		 repository.deleteByEmail(email);
 	}
+	
+	public void atualizarUsuarioPorId(Integer id, Usuario usuario) {
+		Usuario usuarioEntity = repository.findById(id)
+		        .orElseThrow(() -> new RuntimeException("Usuário Não Encontrado"));
 
+		    if (usuario.getEmail() != null) {
+		        usuarioEntity.setEmail(usuario.getEmail());
+		    }
+		    if (usuario.getNome() != null) {
+		        usuarioEntity.setNome(usuario.getNome());
+		    }
+		    repository.saveAndFlush(usuarioEntity);
+				
+	}
 }
