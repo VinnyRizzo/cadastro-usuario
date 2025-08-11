@@ -14,7 +14,8 @@ Banco de dados relacional (MySQL, PostgreSQL, etc.)
 
 REST API com JSON
 
-Pontos de Destaque
+## Pontos de Destaque
+
 Uso de padrão Builder para facilitar atualização parcial da entidade.
 
 Tratamento de exceções ao buscar usuários inexistentes.
